@@ -70,7 +70,7 @@
 				alt="Check Icon"
 				class="mb-3 mb-md-4"
 				height="64"
-				src="./assets/check-icon.svg"
+				src="../../../assets/check-icon.svg"
 				width="64"
 			/>
 			<h1 class="fs-3 text-success text-center">Checkout Successfully</h1>
