@@ -15,6 +15,7 @@ import { createPinia } from 'pinia';
 import { createApp } from 'vue';
 import App from './App.vue';
 import 'bootstrap';
+import { router } from './router';
 
 library.add(
 	faAngleLeft,
@@ -31,4 +32,5 @@ library.add(
 createApp(App)
 	.component('font-awesome-icon', FontAwesomeIcon)
 	.use(createPinia())
+	.use(router)
 	.mount('#app');
